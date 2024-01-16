@@ -1,0 +1,22 @@
+
+what we learn
+expreess is a game of req and res
+res
+ res.send any senetence of html or anything
+ res.json convert data in json
+ res.end
+ res.sendFile send single file
+
+ static pages, images
+ app.use(express.static(absolut path folder where all static pages created))
+
+ dynamic content
+ hbs its like html view engine hbs
+ app.set(views folder path)
+ we can also change views name
+
+create components in hbs
+use partials
+app.registerPartials(partials folder path)
+
+error page app.get(*) at the end of all routes

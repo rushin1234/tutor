@@ -1,0 +1,17 @@
+new 
+Streams are objects that let you read data from
+  soure or write data to destination in continuous fashion
+ ther are 4 types of streams
+Readable used for read operation
+Writable used for write operation
+Duplex used for both read and write operation
+Transform a type of duplex stream where where the output is computed 
+based on input
+
+each type of stream is an EventEmitter istance and throws several events 
+at different instance of times. 
+For ex some of commonly used events are 
+data event fired when data is available to read
+end event fired when there is no more data to read
+error event fired when there is any error receiving or writing data
+finish event fired when all data has been flushed to underlying system
